@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    { "id": 1, "nome": "Ana Souza", "email": "ana.souza@email.com", "senha": "senha123", "cargo": "Gerente Administrativo" },
+    { "id": 2, "nome": "Carlos Mendes", "email": "carlos.mendes@email.com", "senha": "senha456", "cargo": "Gerente de Unidade" }
+  ],
+  "profissionais": [
+    { "id": 1, "nome": "Dr. João Martins", "email": "joao.martins@email.com", "cargo": "Psicólogo" },
+    { "id": 2, "nome": "Dra. Maria Oliveira", "email": "maria.oliveira@email.com", "cargo": "Terapeuta" }
+  ],
+  "alunos": [
+    { "id": 1, "nome": "Juliana Ribeiro", "unidade": "Unidade Leste", "curso": "Ciência da Computação", "turno": "Noturno", "necessidade_especial": "Deficiência visual" },
+    { "id": 2, "nome": "Fernando Lima", "unidade": "Unidade Centro", "curso": "Engenharia de Software", "turno": "Matutino", "necessidade_especial": null }
+  ],
+  "tecnologias": [
+    { "id": 1, "nome": "Leitor de Tela" },
+    { "id": 2, "nome": "Software de Comando por Voz" }
+  ],
+  "atendimentos": [
+    { "id": 1, "aluno_id": 1, "data_atendimento": "2024-02-05T14:30:00", "tipo_atendimento": "Atendimento Pedagógico", "profissional_id": 2, "tecnologia_assistiva_id": 1 },
+    { "id": 2, "aluno_id": 2, "data_atendimento": "2024-03-10T10:00:00", "tipo_atendimento": "Atendimento Psicológico", "profissional_id": 1, "tecnologia_assistiva_id": 2 }
+  ]
+}

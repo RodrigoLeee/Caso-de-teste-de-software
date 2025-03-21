@@ -1,0 +1,12 @@
+{
+    "name": "sistema-atendimento",
+    "version": "1.0.0",
+    "description": "Sistema de atendimento a alunos com necessidades especiais",
+    "main": "index.js",
+    "scripts": {
+      "server": "json-server --watch db.json"
+    },
+    "dependencies": {
+      "json-server": "^0.17.3"
+    }
+  }
