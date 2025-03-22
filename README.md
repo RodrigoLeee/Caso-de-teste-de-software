@@ -36,6 +36,11 @@ Certifique-se de ter o **Python 3.x** instalado em sua máquina. Além disso, in
 npm install -g json-server
 ```
 
+Instalar bibliotecas python:
+```python
+pip install requests
+```
+
 ### 2️⃣ Executar o Servidor Mock JSON
 Inicie o `json-server` para servir o `db.json` como API REST:
 ```sh
